@@ -1,0 +1,8 @@
+[fest]
+source = ["src/peoples_gas_lib/**/*.py"]
+exclude = ["**/__pycache__/**", "**/*.pyc", "tests/integration/**"]
+timeout = 30
+workers = 4
+fail_under = 80.0
+output = "text"
+backend = "subprocess"
